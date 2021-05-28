@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+}
+
+#main {
+  padding: 7px 0;
+}
+
+#logo-link {
+  font-weight: bold;
+  color: #fff;
+  font-size: 25px;
+}
+
+#logo-link img {
+  margin-right: 5px;
+}
+
+#service {
+  border-right: solid 1px #fff;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+
+#service a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 28px 17px;
+}
+
+#login a {
+  text-decoration: none;
+  padding: 28px 17px;
+  color: #fff;
+  font-weight: bold;
+}
+
+#navegation a:hover {
+  color: #1ed760;
+}
+
+#main-burger {
+  background-image: url(/img/main-burger.svg);
+}
+
+/*  HEADER  */
+
+.fundo-imagem {
+  background: #2941ab url(/img/bursts.svg) no-repeat center center;
+  background-size: 180%;
+  background-position: 46% 4%;
+  height: 100vh;
+}
+
+#btn-baixar {
+  border-radius: 500px;
+  background: #2de26d;
+  padding: 10px 32px;
+}
+
+#conteudo-header {
+  text-align: center;
+}
+
+#conteudo-header h1 {
+  font-size: 9em;
+  font-weight: bold;
+  letter-spacing: 0.1px;
+  color: #1ed760;
+}
+
+#conteudo-header p {
+  font-size: 1.25em;
+  font-weight: normal;
+  letter-spacing: 0.1px;
+  color: #1ed760;
+}
+
+#conteudo-header a {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #2941ab;
+  padding: 10px 25px;
+}
+
+#conteudo-header a:hover {
+  animation: expansion 0.2s forwards;
+}
+
+@keyframes expansion {
+  to {
+    font-size: 1.1em;
+  }
+}
+
+/*  FOOTER  */
+
+#conteudo-footer h2 {
+  font-weight: bold;
+  color: #757575;
+  font-size: 0.8em;
+  letter-spacing: 0.1em;
+}
+
+#conteudo-footer h2 {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+#conteudo-footer ul li {
+  margin-bottom: 15px;
+}
+
+#conteudo-footer ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#conteudo-footer ul li a:hover {
+  color: #1ed760;
+}
+
+#social a {
+  padding: 12px 14px;
+  background: #222326;
+  margin-right: 10px;
+}
+
+#social img {
+  margin-top: -5px;
+  max-width: 20px;
+}
+
+#social-interna {
+  text-align: end;
+}
+
+#footer-direitos {
+  padding: 50px 0;
+}
+
+#footer-direitos span {
+  margin-right: 20px;
+  font-size: 12px;
+}
+
+#footer-direitos span a {
+  color: #8f8f8f;
+  text-decoration: none;
+}
+
+#footer-direitos span a:hover {
+  color: #1ed760;
+}
+
+#local {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+#local a {
+  color: #8f8f8f;
+  font-size: 12px;
+  text-decoration: none;
+  text-align: end;
+}
+
+#local a img {
+  margin-top: -3px;
+  margin-right: 4px;
+}
+
+#local a:hover {
+  color: #1ed760;
+}
+
+#local span {
+  color: #8f8f8f;
+  margin: 0;
+}
